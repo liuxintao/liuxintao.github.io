@@ -87,7 +87,7 @@ html, body {
     第一屏样式
 */
 
-.s1,.s2,.s3,.s4,.s5{
+.s1,.s2,.s3,.s4,.s5,.s6,.s7{
     background: url(../img/bj.png);
     height: 100%;
     position: relative;
@@ -158,26 +158,9 @@ html, body {
     width: 100%;
     color: #0ed1af;
     bottom: 0;
+    text-align: center;
+    bottom: 20%;
 }
-.s1 .footer p:nth-of-type(2){
-    margin-bottom: 35px;
-}
-.s1 .footer p:nth-of-type(3){
-    height: 70px;
-   
-}
-.s1 .footer img{
-     position: absolute;
-}
-.s1 .footer img:nth-of-type(1){
-    left: 0; 
-   height: 70px;
-}
-.s1 .footer img:nth-of-type(2){
-    height: 70px; 
-    left: -65px;
-}
-
 
 /*
     第二屏
@@ -425,10 +408,9 @@ html, body {
     margin-top: 10px;
     top: 0;
 }
-/*
-    第四屏中部
-*/
+   
 
+/*s4中部*/
 
 .s4 .main{
     position: absolute;
@@ -493,6 +475,305 @@ html, body {
 }
 
 
+/*
+    第五屏
+*/
+
+.s5 {
+    color: #00f8ca;
+}
+
+.s5 h2 {
+    font-size: 26px;
+    position: relative;
+    top: 12%;
+}
+
+.s5 small {
+    margin-top: 10px;
+    display: block;
+    font-size: 14px;
+    letter-spacing: 5px;
+}
+
+.s5 h2::before,
+.s5 h2::after {
+    content: "";
+    width: 80px;
+    height: 20px;
+    display: inline-block;
+    position: absolute;
+}
+
+.s5 h2::before {
+    background: url(../img/14.png);
+    background-size: contain;
+    margin-left: -95px;
+    margin-top: 10px;
+}
+
+.s5 h2::after {
+    background: url(../img/13.png);
+    background-size: contain;
+    margin-left: 66px;
+    margin-top: 10px;
+    top: 0;
+}
+
+/*
+    第五页中部
+*/
+
+.s5 .main div{
+    background: url(../img/s56.png);
+    background-size: contain; 
+    position: absolute;
+    width: 140px;
+    height: 176px;
+}
+
+.s5 .main div img{
+    width: 110px;
+    height: 100px;
+}
+
+.s5 .main div a{
+    font-size: 14px;
+    text-decoration: none;
+    display: block;
+    color: #00c4a5;
+    margin-bottom: 10px;
+}
+.s5 .main div p{
+    
+    width: 110px;
+    height: 25px;
+    background:-moz-linear-gradient(left,#00ecfc,#00fd9d);/*Mozilla*/
+    background:-webkit-gradient(linear,0 50%,100% 50%,from(#00ecfc),to(#00fd9d));/*Old gradient for webkit*/
+    background:-webkit-linear-gradient(left,#00ecfc,#00fd9d);/*new gradient for Webkit*/
+    background:-o-linear-gradient(left,#00ecfc,#00fd9d); /*Opera11*/
+    font-size: 16px;
+    color: black;
+    border-radius: 15px;
+    margin: auto;
+}
+
+.s5 .main div:nth-of-type(1){
+    top: 25%;
+    left: 10%;
+}
+
+.s5 .main div:nth-of-type(2){
+    top: 25%;
+    right: 10%;
+}
+.s5 .main div:nth-of-type(3){
+    top: 57%;
+    left: 10%;
+}
+.s5 .main div:nth-of-type(4){
+    top: 57%;
+    right: 10%;
+}
+
+/*
+    第六页
+*/
+
+.s6 {
+    color: #00f8ca;
+}
+
+.s6 h2 {
+    font-size: 26px;
+    position: relative;
+    top: 12%;
+}
+
+.s6 small {
+    margin-top: 10px;
+    display: block;
+    font-size: 14px;
+    letter-spacing: 5px;
+}
+
+.s6 h2::before,
+.s6 h2::after {
+    content: "";
+    width: 80px;
+    height: 20px;
+    display: inline-block;
+    position: absolute;
+}
+
+.s6 h2::before {
+    background: url(../img/14.png);
+    background-size: contain;
+    margin-left: -95px;
+    margin-top: 10px;
+}
+
+.s6 h2::after {
+    background: url(../img/13.png);
+    background-size: contain;
+    margin-left: 66px;
+    margin-top: 10px;
+    top: 0;
+}
+
+/*第六页左边部分*/
+
+.s6 .s61{
+    position: absolute;
+    top: 26%;
+    left: 10%;  
+    height: 400px;
+}
+.s6 .left div img{
+    position: absolute;
+    width: 25px;
+    height: 25px;
+}
+.s6 .left div img:nth-of-type(1){
+    top: 24%;
+    left: 7%;
+}
+.s6 .left div img:nth-of-type(2){
+    top: 46%;
+    left: 7%;
+}
+.s6 .left div img:nth-of-type(3){
+    top: 67%;
+    left: 7%;
+}
+
+/*第六页 右半部分*/
+
+.s6 .right div h3{
+    width: 280px;
+    height: 29px;
+    background: url(../img/s63.png);
+    background-size: contain; 
+    text-decoration: none;
+    color: black;
+    position: absolute;
+    font-size: 18px;
+    line-height: 29px;
+}
+.s6 .right .rightp{
+    width: 280px;
+    height: 80px;
+    background: url(../img/s64.png);
+    background-size: contain;
+    position: absolute;
+    padding: 10px;
+} 
+.s6 .right .rightp p{
+    font-size: 12px;
+    float: left;
+}
+
+.s6 .right div:nth-of-type(1) h3{
+    top: 23%;
+    left: 15%;
+}
+.s6 .right div:nth-of-type(1) .rightp{
+    top: 30%;
+    left: 15%;
+}
+.s6 .right div:nth-of-type(2) h3{
+    top: 45%;
+    left: 15%;
+}
+.s6 .right div:nth-of-type(2) .rightp{
+    top: 52%;
+    left: 15%;
+}
+.s6 .right div:nth-of-type(3) h3{
+    top: 67%;
+    left: 15%;
+}
+.s6 .right div:nth-of-type(3) .rightp{
+    top: 74%;
+    left: 15%;
+}
+
+/*
+    第七页
+*/
+.s7 {
+    color: #00f8ca;
+}
+
+.s7 h2 {
+    font-size: 26px;
+    position: relative;
+    top: 12%;
+}
+
+.s7 small {
+    margin-top: 10px;
+    display: block;
+    font-size: 14px;
+    letter-spacing: 5px;
+}
+
+.s7 h2::before,
+.s7 h2::after {
+    content: "";
+    width: 80px;
+    height: 20px;
+    display: inline-block;
+    position: absolute;
+}
+
+.s7 h2::before {
+    background: url(../img/14.png);
+    background-size: contain;
+    margin-left: -95px;
+    margin-top: 10px;
+}
+
+.s7 h2::after {
+    background: url(../img/13.png);
+    background-size: contain;
+    margin-left: 66px;
+    margin-top: 10px;
+    top: 0;
+}
+/*中部*/
+.s7 div{
+    position: absolute;
+    top: 25%;
+    width: 80%;
+    height: 380px;
+    left: 50%;
+    margin-left: -40%;
+
+}
+
+.s7 div img{
+    width: 100%;
+    position: absolute;
+    left: 0;
+}
+/*第七页中部部分*/
+.s7 div form{
+    margin-top: 30px;
+}
+.s7 div input{
+    width: 260px;
+    height: 60px;
+    border: 2px solid #7bfbe4;
+    margin-bottom: 10px;
+}
+.s7 div input:nth-of-type(4){
+    background: #00f2ca;
+    color: azure;
+}
+.s7 div p{
+    font-size: 18px;
+}
 
 
 
@@ -500,8 +781,42 @@ html, body {
 
 
 
+/*
+<p>
+                  <img src="img/10.png" alt="">
+                  <img src="img/11.png" alt="">
+                </p>
+*/
+/*
+.s1 .footer img{
+     position: absolute;
+}
+.s1 .footer img:nth-of-type(1){
+    left: 0; 
+   height: 70px;
+}
+.s1 .footer img:nth-of-type(2){
+    height: 70px; 
+    left: -65px;
+}
+*/
 
 
+
+.shuiwen img{
+    position: absolute;
+    bottom: 0;
+}
+.shuiwen p:nth-of-type(1) img{
+    left: 0; 
+    height: 70px;
+    position: absolute;
+}
+.shuiwen p:nth-of-type(2) img{
+    height: 70px; 
+    left: -55px;
+    position: absolute;
+}
 
 
 
